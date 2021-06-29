@@ -5,14 +5,3 @@
 </template>
 
 
-<script>
-// helloworld.test.js
-import { shallowMount } from '@vue/test-utils';
-import HelloWorld from './HelloWorld.vue';
-
-test('HelloWorld Component', () => {
-  const wrapper = shallowMount(HelloWorld);
-  expect(wrapper.vm.message).toBe('Vue!');
-});
-</script>
-
